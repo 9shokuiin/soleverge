@@ -1242,8 +1242,6 @@ a{
         display: none;
     }
 
-    .scenes
-
     /*-----menu-----*/
 
     .menubar{
@@ -1391,6 +1389,7 @@ a{
 
     .scenes-column-right{
         margin-top: 30px;
+    }
 
     .scenes-main{
         width: 100%;
@@ -1422,6 +1421,7 @@ a{
 
     .scenes-shop{
         justify-content: space-around;
+        margin-top: 50px;
     }
 
     .scenes .item{
