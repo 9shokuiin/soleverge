@@ -1389,6 +1389,9 @@ a{
         width: 100%;
     }
 
+    .scenes-column-right{
+        margin-top: 30px;
+
     .scenes-main{
         width: 100%;
         height: 300px;
@@ -1414,7 +1417,7 @@ a{
     .scenes-sentence{
         font-size: 14px;
         width: 100%;
-        padding: 20px;
+        padding: 0 20px;
     }
 
     .scenes-shop{
