@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soleverge</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- adobe fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/rbx8mij.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="menu">
+
+        <button class="header-close-btn"><i class="fa-solid fa-xmark"></i></button>
+
+        <div class="header-menubar">
+            <button class="header-menubar-button">
+                <div class="header-menubar-1 menubar"></div>
+                <div class="header-menubar-2 menubar"></div>
+                <div class="header-menubar-3 menubar"></div>
+            </button>
+        </div>
+
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li class="header-nav-li"> <a href="#top">TOP</a></li>
+                <li class="header-nav-li"> <a href="#about">ABOUT</a></li>
+                <li class="header-nav-li"> <a href="#shop">PRODUCTS</a></li>
+                <li class="header-nav-li"> <a href="#scenes">SCENES</a></li>
+                <li class="header-nav-li"> <a href="#news">NEWS</a></li>
+                <li class="header-nav-li"><button onclick="location.href='#top'" class="menu-btn btn online-store-btn">ONLINE STORE</button></li>
+            </ul>
+        </nav>
+
+        <div class="header-icons">
+            <a class="header-icon-link" href="#top"><i class="header-icon fa-solid fa-cart-shopping"></i></a>
+            <a class="header-icon-link" href="#top"><i class="header-icon-instagram header-icon fa-brands fa-instagram"></i></a>
+            <a class="header-icon-link" href="#top"><i class="header-icon fa-brands fa-x-twitter"></i></a>
+        </div>
+    </header>
+
+    <a href="#top"><img class="hero-logo" src="img/logo.svg" alt="logo"></a>
+
+    <div class="target-wrap">
+        <div id="top" class="target"></div>
+        <div id="about" class="target"></div>
+        <div id="shop" class="target"></div>
+        <div id="scenes" class="target"></div>
+        <div id="news" class="target"></div>
+    </div>
+    
+    <div id="luxy" class="content">
+
+        <section class="hero">
+            <img class="hero-mainimg luxy-el" data-speed-y="4" data-offset="0" src="img/main1.jpg" alt="mainimage">
+            <h1 class="hero-title luxy-el" data-speed-y="-8" data-offset="50">THE<br>STREET<br>IS<br>MINE</h1>
+            <button onclick="location.href='#top'" class="hero-btn btn online-store-btn luxy-el" data-speed-y="-4" data-offset="50">ONLINE STORE</button>
+        </section>
+
+        <section class="aboutus">
+
+            <!-- セクションタイトルのテンプレ head2-->
+            <h2 class="aboutus-title head2">ABOUT</h2>
+        
+            <div class="about-column">
+                <div class="about-column-left">
+                    <p class="about-subtitle luxy-el" data-speed-y="-6" data-offset="200">WHERE EVERY<br>STEP COUNTS</p>
+                    <p class="about-sentence luxy-el desktop" data-speed-y="-6" data-offset="200">丁寧に染めたデニム生地と足にフィットするソールが、Solevergeのこだわりです。アクティブな生活をしっかり支え、毎日を楽しむための自信を足元から生み出します。<br>軽量化と柔軟な素材で動きやすくなったスニーカーで、この街を思いのままに。</p>
+                </div>
+                <img class="about-column-right" src="img/main2.jpg" alt="mainimage2">
+            </div>
+
+            <p class="about-sentence luxy-el tablet-m" data-speed-y="-6" data-offset="200">丁寧に染めたデニム生地と足にフィットするソールが、Solevergeのこだわりです。アクティブな生活をしっかり支え、毎日を楽しむための自信を足元から生み出します。<br>軽量化と柔軟な素材で動きやすくなったスニーカーで、この街を思いのままに。</p>
+
+        </section>
+
+        <section class="items">
+
+            <h2 class="items-title head2">PRODUCTS</h2>
+
+            <div class="shop-column">
+
+                <div class="shop-column-right tablet-m">
+                    <p class="shop-subtitle tablet-m">NEW ARRIVALS<br>FOR YOU</p>
+                    <p class="shop-sentence tablet-m">秋の新作アイテムをいち早くチェック。</p>
+                    <button onclick="location.href='#top'" class="shop-btn btn online-store-btn tablet-m">ONLINE STORE</button>
+                </div>
+
+                <div class="shop-column-left">
+
+                    <!-- 商品のレイアウトのテンプレ item -->
+                    <a href="#top">
+                        <div class="item shop-item-1">
+                            <div class="item-img-wrap"><img class="item-img" src="img/shoes (12).jpg" alt="item1"></div>
+                            <h3 class="item-title">スニーカーアジツケノリ</h3>
+                            <div class="item-colors">
+                                <div class="itemcolor item-colors-white"></div>
+                                <div class="itemcolor item-colors-brack"></div>
+                                <div class="itemcolor item-colors-green"></div>
+                                <div class="itemcolor item-colors-blue"></div>
+                            </div>
+                            <p class="item-price">¥4,980<span class="item-price-jp">(税込)</span></p>
+                        </div>
+                    </a>
+
+                    <a href="#top">
+                        <div class="item shop-item-2">
+                            <div class="item-img-wrap"><img class="item-img" src="img/shoes (14).jpg" alt="item2"></div>
+                            <h3 class="item-title">スニーカー メレンゲ</h3>
+                            <div class="item-colors">
+                                <div class="itemcolor item-colors-white"></div>
+                                <div class="itemcolor item-colors-brack"></div>
+                                <div class="itemcolor item-colors-red"></div>
+                            </div>
+                            <p class="item-price">¥7,480<span class="item-price-jp">(税込)</span></p>
+                        </div>
+                    </a>
+
+                    <a href="#top">
+                        <div class="item shop-item-3">
+                            <div class="item-img-wrap"><img class="item-img" src="img/shoes (15).jpg" alt="item3"></div>
+                            <h3 class="item-title">スニーカー コンブアメ</h3>
+                            <div class="item-colors">
+                                <div class="itemcolor item-colors-white"></div>
+                                <div class="itemcolor item-colors-brack"></div>
+                            </div>
+                            <p class="item-price">¥7,480<span class="item-price-jp">(税込)</span></p>
+                        </div>
+                    </a>
+
+                    <a href="#top">
+                        <div class="item shop-item-4 tablet-m">
+                            <div class="item-img-wrap"><img class="item-img" src="img/shoes (8).jpg" alt="item1"></div>
+                            <h3 class="item-title">スニーカー ユバ</h3>
+                            <div class="item-colors">
+                                <div class="itemcolor item-colors-white"></div>
+                                <div class="itemcolor item-colors-brack"></div>
+                                <div class="itemcolor item-colors-green"></div>
+                                <div class="itemcolor item-colors-blue"></div>
+                            </div>
+                            <p class="item-price">¥6,280<span class="item-price-jp">(税込)</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="shop-column-right desktop">
+
+                    <p class="shop-subtitle luxy-el desktop" data-speed-y="-6" data-offset="200">NEW ARRIVALS<br>FOR YOU</p>
+                    <p class="shop-sentence luxy-el desktop" data-speed-y="-6" data-offset="200">秋の新作アイテムをいち早くチェック。</p>
+                    <button onclick="location.href='#top'" class="shop-btn btn online-store-btn luxy-el desktop" data-speed-y="-6" data-offset="200">ONLINE STORE</button>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <section class="scenes">
+
+            <h2 class="scenes-title head2">SCENES</h2>
+
+            <!-- SCENES テンプレ -->
+            <div class="scenes-template scenes-street">
+
+                <div class="scenes-column-left desktop mobile">
+                    <div class="scenes-left-main">
+                        <img class="scenes-main" src="img/shoes (2).jpg" alt="scenes-mainvisual">
+                        <h3 class="scenes-column-title luxy-el" data-speed-y="-6" data-offset="400">STREET</h3>
+                    </div>
+                    <img class="scenes-subimg" src="img/shoes (1).jpg" alt="scenes-subvisual">
+                </div>
+
+                <div class="scenes-column-left tablet-m">
+                    <div class="scenes-imgs-main">
+                        <img class="scenes-main" src="img/shoes (2).jpg" alt="scenes-mainvisual">
+                        <img class="scenes-subimg" src="img/shoes (1).jpg" alt="scenes-subvisual">
+                    </div>
+                    <h3 class="scenes-column-title luxy-el" data-speed-y="-6" data-offset="400">STREET</h3>
+                </div>
+
+                <div class="scenes-column-right">
+                    <p class="scenes-sentence">シンプルながら重厚感のあるシューズは、ポップなシーンにも最適。泥や砂に強い足元が、様々なアクティビティを可能にする。独自に開発した滑りにくい靴底は、悪路やダンスホールでの活躍をサポートすることに特化している。</p>
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn desktop">ONLINE STORE</button>
+
+                    <div class="scenes-shop">
+                    
+                        <a href="#top">
+                            <div class="item scenes-item-1">
+                                <div class="scenes-item-img-wrap">
+                                <img class="scenes-item-img" src="img/shoes (8).jpg" alt="item3"></div>
+                                <h3 class="item-title">スニーカー ユバ</h3>
+                                <div class="item-colors">
+                                    <div class="itemcolor item-colors-white"></div>
+                                </div>
+                                <p class="item-price">¥6,310<span class="item-price-jp">(税込)</span></p>
+                            </div>
+                        </a>
+                        
+                        <a href="#top">
+                            <div class="item scenes-item-2">
+                                <div class="scenes-item-img-wrap"><img class="scenes-item-img" src="img/shoes (15).jpg" alt="item3"></div>
+                                <h3 class="item-title">スニーカー コンブアメ</h3>
+                                <div class="item-colors">
+                                    <div class="itemcolor item-colors-white"></div>
+                                    <div class="itemcolor item-colors-brack"></div>
+                                </div>
+                                <p class="item-price">¥7,480<span class="item-price-jp">(税込)</span></p>
+                            </div>
+                        </a>
+                        
+                        <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn tablet-m">ONLINE STORE</button>
+                        
+                    </div>
+
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn mobile">ONLINE STORE</button>
+                </div>
+            </div>
+
+            <div class="scenes-template scenes-travel">
+
+                <div class="scenes-column-left desktop mobile">
+                    <div class="scenes-left-main">
+                        <img class="scenes-main" src="img/shoes (4).jpg" alt="scenes-mainvisual">
+                        <h3 class="scenes-column-title luxy-el" data-speed-y="-6" data-offset="500">TRAVEL</h3>
+                    </div>
+                    <img class="scenes-subimg" src="img/shoes (6).jpg" alt="scenes-subvisual">
+                </div>
+
+                <div class="scenes-column-left tablet-m">
+                    <div class="scenes-imgs-main">
+                        <img class="scenes-main" src="img/shoes (4).jpg" alt="scenes-mainvisual">
+                        <img class="scenes-subimg" src="img/shoes (6).jpg" alt="scenes-subvisual">
+                    </div>
+                    <h3 class="scenes-column-title luxy-el" data-speed-y="-6" data-offset="500">TRAVEL</h3>
+                </div>
+
+                <div class="scenes-column-right">
+                    <p class="scenes-sentence">長時間歩き続けても疲れない、足にフィットするシューズは旅行にも最適。特製ソールが、あなたの足から乳酸を吸い取って瞬く間にエネルギーを補給する。<br>そんなことあるのかって？こんな文字、誰も読まないから何を書いたっていいんだ。フリーダムイズ自由。</p>
+                    
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn desktop">ONLINE STORE</button>
+                    
+                    <div class="scenes-shop">
+                        <a href="#top">
+                            <div class="item scenes-item-1">
+                                <div class="scenes-item-img-wrap"><img class="scenes-item-img" src="img/shoes (14).jpg" alt="item3"></div>
+                                <h3 class="item-title">スニーカー メレンゲ</h3>
+                                <div class="item-colors">
+                                    <div class="itemcolor item-colors-white"></div>
+                                </div>
+                                <p class="item-price">¥7,480<span class="item-price-jp">(税込)</span></p>
+                            </div>
+                        </a>
+                        
+                        <a href="#top">
+                            <div class="item scenes-item-2">
+                                <div class="scenes-item-img-wrap"><img class="scenes-item-img" src="img/shoes (15).jpg" alt="item3"></div>
+                                <h3 class="item-title">スニーカー コンブアメ</h3>
+                                <div class="item-colors">
+                                    <div class="itemcolor item-colors-white"></div>
+                                    <div class="itemcolor item-colors-brack"></div>
+                                </div>
+                                <p class="item-price">¥7,480<span class="item-price-jp">(税込)</span></p>
+                            </div>
+                        </a>
+
+                        <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn tablet-m">ONLINE STORE</button>
+
+                    </div>
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn mobile">ONLINE STORE</button>
+                </div>
+            </div>
+
+            <div class="scenes-template scenes-gomisute">
+
+                <div class="scenes-column-left desktop mobile">
+                    <div class="scenes-left-main">
+                       <img class="scenes-main" src="img/shoes (3).jpg" alt="scenes-mainvisual">
+                        <h3 class="scenes-column-title luxy-el" data-speed-y="-6" data-offset="650">GOMISUTE</h3>
+                    </div>
+                    <img class="scenes-subimg" src="img/shoes (5).jpg" alt="scenes-subvisual">
+                </div>
+
+                <div class="scenes-column-left tablet-m">
+                    <div class="scenes-imgs-main">
+                       <img class="scenes-main" src="img/shoes (3).jpg" alt="scenes-mainvisual">
+                       <img class="scenes-subimg" src="img/shoes (5).jpg" alt="scenes-subvisual">
+                    </div>
+                    <h3 class="scenes-column-title luxy-el" data-speed-y="-6" data-offset="650">GOMISUTE</h3>
+                </div>
+
+                <div class="scenes-column-right">
+                    <p class="scenes-sentence">どんな景色にも馴染むこのスニーカーで、ゴミ捨てに行くときも街のヒーローになろう。ゴミ捨てのためにわざわざ靴を履くのが面倒だという人は、その辺にあるサンダルとかをつっかけてゴミを捨てに行こう。百均のサンダルって案外長持ちするよね。</p>
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn desktop">ONLINE STORE</button>
+                    <div class="scenes-shop">
+                        <a href="#top">
+                            <div class="item scenes-item-1">
+                                <div class="scenes-item-img-wrap"><img class="scenes-item-img" src="img/shoes (12).jpg" alt="item3"></div>
+                                <h3 class="item-title">スニーカーアジツケノリ</h3>
+                                <div class="item-colors">
+                                    <div class="itemcolor item-colors-white"></div>
+                                    <div class="itemcolor item-colors-brack"></div>
+                                </div>
+                                <p class="item-price">¥6,310<span class="item-price-jp">(税込)</span></p>
+                            </div>
+                        </a>
+                        
+                        <a href="#top">
+                            <div class="item scenes-item-2">
+                                <div class="scenes-item-img-wrap"><img class="scenes-item-img" src="img/shoes (9).jpg" alt="item3"></div>
+                                <h3 class="item-title">スニーカー コンブ</h3>
+                                <div class="item-colors">
+                                    <div class="itemcolor item-colors-white"></div>
+                                    <div class="itemcolor item-colors-brack"></div>
+                                    <div class="itemcolor item-colors-red"></div>
+                                    <div class="itemcolor item-colors-green"></div>
+                                </div>
+                                <p class="item-price">¥5,990<span class="item-price-jp">(税込)</span></p>
+                            </div>
+                        </a>
+
+                        
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn tablet-m">ONLINE STORE</button>
+                    </div>
+                    <button onclick="location.href='#top'" class="scenes-btn btn online-store-btn mobile">ONLINE STORE</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="news">
+            <h2 class="head2 news-title">NEWS</h2>
+            <div class="news-wrap">
+
+                <a href="#top">
+                    <div class="news-content">
+                        <div class="news-img-wrap"><img class="news-img" src="img/main1.jpg" alt="news-mainvisual"></div>
+                        <div class="news-date-wrap">
+                            <p class="news-date">2024.2.13</p>
+                            <p class="news-content-p">ブランドサイトがオープンしました</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#top">
+                    <div class="news-content">
+                        <div class="news-img-wrap"><img class="news-img" src="img/shoes (13).jpg" alt="news-mainvisual"></div>
+                        <div class="news-date-wrap">
+                            <p class="news-date">2024.5.6</p>
+                            <p class="news-content-p">お中元用シューズ詰め合わせBOXの販売を開始しました</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#top">
+                    <div class="news-content">
+                        <div class="news-img-wrap"><img class="news-img" src="img/shoes (8).jpg" alt="news-mainvisual"></div>
+                        <div class="news-date-wrap">
+                            <p class="news-date">2024.8.26</p>
+                            <p class="news-content-p">マッキーマウスコラボ商品の予約受付を開始しました</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <button onclick="location.href='#top'" class="news-btn btn">READ MORE</button>
+        </section>
+
+        <footer>
+            <img class="footer-img" src="img/shoes (7).jpg" alt="footer-image">
+
+            <div class="footer-wrap">
+                <div class="footer-logo-wrap">
+                    <img class="footer-logo" src="img/logo.svg" alt="logo">
+                    <button onclick="location.href='#top'" class="footer-btn online-store-btn btn">ONLINE STORE</button>
+                </div>
+                <nav>
+                    <ul class="footer-nav-ul">
+                        <li class="footer-nav-li"><a class="footer-li-a" href="#top">TOP</a></li>
+                        <li class="footer-nav-li"><a class="footer-li-a" href="#about">ABOUT</a></li>
+                        <li class="footer-nav-li"><a class="footer-li-a" href="#shop">PRODUCTS</a></li>
+                        <li class="footer-nav-li"><a class="footer-li-a" href="#scenes">SCENES</a></li>
+                        <li class="footer-nav-li"><a class="footer-li-a" href="#news">NEWS</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-column">
+                    <div class="footer-icons">
+                        <a href="#top"><i class="footer-icon fa-brands fa-instagram"></i></a>
+                        <a href="#top"><i class="footer-icon fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <p class="footer-addres">N52, Antananarivo, Madagascar</p>
+                </div>
+            </div>
+
+            <div class="footer-copy-wrap">
+                <p class="footer-copy"><small>Photos by <a href="https://www.pexels.com/ja-jp/@craytive/">Ray Piedra</a> and <a href="https://www.pexels.com/ja-jp/@lucas-chaves-230972707/">Lucas Chaves</a></small></p>
+                <p class="footer-copy"><small>「Soleverge」は実在しない架空のブランドです。</small></p>
+                <p class="footer-copy"><small>Soleverge&copy;9shokuiin All rights rserved</small></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0239a37d16.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/shoes.js"></script>
+    <script src="js/luxy.js" charset="utf-8"></script>
+    <script charset="utf-8">luxy.init();</script>
+</body>
+</html>
